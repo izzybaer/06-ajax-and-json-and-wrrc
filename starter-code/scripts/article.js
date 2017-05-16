@@ -57,9 +57,9 @@ Article.fetchAll = function() {
       localStorage.rawData = JSON.stringify(rawData)
       articleView.initIndexPage();
     },
-  function(err) {
-    console.log(err);
-  });
+    function(err) {
+      console.log(err);
+    });
   }
 }
 // When rawData is already in localStorage,
